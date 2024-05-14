@@ -84,9 +84,9 @@ GEM
     ffi (1.16.3)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    i18n (1.14.4)
+    i18n (1.14.5)
       concurrent-ruby (~> 1.0)
-    jbuilder (2.11.5)
+    jbuilder (2.12.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     listen (3.9.0)
@@ -102,12 +102,12 @@ GEM
       net-smtp
     marcel (1.0.4)
     matrix (0.4.2)
-    method_source (1.0.0)
+    method_source (1.1.0)
     mini_mime (1.1.5)
     minitest (5.22.3)
     msgpack (1.7.2)
     mysql2 (0.5.6)
-    net-imap (0.4.10)
+    net-imap (0.4.11)
       date
       net-protocol
     net-pop (0.1.2)
@@ -116,8 +116,18 @@ GEM
       timeout
     net-smtp (0.5.0)
       net-protocol
-    nio4r (2.7.1)
+    nio4r (2.7.3)
+    nokogiri (1.16.4-aarch64-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.4-arm-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.4-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.4-x86-linux)
+      racc (~> 1.4)
     nokogiri (1.16.4-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.4-x86_64-linux)
       racc (~> 1.4)
     pry (0.14.2)
       coderay (~> 1.1)
@@ -188,7 +198,7 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     semantic_range (3.0.0)
-    spring (4.2.0)
+    spring (4.2.1)
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -227,7 +237,12 @@ GEM
     zeitwerk (2.6.13)
 
 PLATFORMS
+  aarch64-linux
+  arm-linux
+  arm64-darwin
+  x86-linux
   x86_64-darwin
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.4)
@@ -254,4 +269,4 @@ RUBY VERSION
    ruby 3.1.3p185
 
 BUNDLED WITH
-   2.5.7
+   2.5.6
